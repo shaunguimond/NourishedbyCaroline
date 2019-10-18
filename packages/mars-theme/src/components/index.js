@@ -62,7 +62,7 @@ const HeadContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #1f38c5;
+  background-color: rgb(255, 255, 255);
 `;
 
 const Main = styled.div`
@@ -70,7 +70,7 @@ const Main = styled.div`
   justify-content: center;
   background-image: linear-gradient(
     180deg,
-    rgba(66, 174, 228, 0.1),
-    rgba(66, 174, 228, 0)
+    rgba(255, 255, 255, 0.1),
+    rgba(155, 155, 155, 0.1)
   );
 `;

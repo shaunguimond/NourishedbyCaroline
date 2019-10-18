@@ -17,18 +17,19 @@ export default connect(Nav);
 const Container = styled.nav`
   list-style: none;
   display: flex;
-  width: 848px;
+  width: 1080px;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 0 24px;
+  padding: 2rem 24px;
   margin: 0;
   overflow-x: auto;
+  justify-content: center;
 `;
 
 const Item = styled.div`
   padding: 0;
   margin: 0 16px;
-  color: #fff;
+  color: #4d4d4d;
   font-size: 0.9em;
   box-sizing: border-box;
   flex-shrink: 0;

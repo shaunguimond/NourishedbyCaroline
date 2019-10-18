@@ -14,8 +14,8 @@ const marsTheme = {
     theme: {
       menu: [],
       featured: {
-        showOnList: false,
-        showOnPost: false
+        showOnList: true,
+        showOnPost: true
       }
     }
   },

@@ -2,9 +2,9 @@ const settings = {
   "name": "unsweetened-caroline",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.io",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://unsweetenedcaroline.com",
+      "title": "Unsweetened Caroline",
+      "description": "Where no recipe is sugar-coated."
     }
   },
   "packages": [
@@ -35,7 +35,7 @@ const settings = {
             ]
           ],
           "featured": {
-            "showOnList": false,
+            "showOnList": true,
             "showOnPost": false
           }
         }
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.io/wp-json"
+          "api": "https://unsweetenedcaroline.com/wp-json"
         }
       }
     },
