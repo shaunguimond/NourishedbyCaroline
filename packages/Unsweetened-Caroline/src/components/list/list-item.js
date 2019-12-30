@@ -28,9 +28,7 @@ const Item = ({ state, item }) => {
       {state.theme.featured.showOnList && (
         <FeaturedMedia id={item.featured_media} />
       )}
-      {item.excerpt && (
-        <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
-      )}
+      <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
     </article>
   );
 };
@@ -61,6 +59,8 @@ const Fecha = styled.span`
 `;
 
 const Excerpt = styled.div`
-  line-height: 1.6em;
-  color: rgba(12, 17, 43, 0.8);
+line-height: 1.8;
+color: #111;
+margin: 0;
+overflow: hidden;
 `;

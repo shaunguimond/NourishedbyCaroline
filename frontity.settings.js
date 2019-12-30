@@ -9,29 +9,33 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "Unsweetened-Caroline",
       "state": {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "About",
+              "/my-story/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Recipes",
+              "/category/all-recipes/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Life",
+              "/category/life/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Contact",
+              "/contact/"
             ],
             [
-              "About Us",
-              "/about-us/"
+              "Subscribe",
+              "/subscribe/"
+            ],
+            [
+              "Shop",
+              "/shop/"
             ]
           ],
           "featured": {

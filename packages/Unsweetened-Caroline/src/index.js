@@ -2,7 +2,7 @@ import Theme from "./components";
 import image from "@frontity/html2react/processors/image";
 
 const marsTheme = {
-  name: "@frontity/mars-theme",
+  name: "Unsweetened-Caroline",
   roots: {
     // In Frontity, any package can add React components to the site.
     // We use roots for that, scoped to the "theme" namespace.

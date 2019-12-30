@@ -4,6 +4,7 @@ import Link from "./link";
 import Nav from "./nav";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faPinterest, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { PrimaryButton } from "office-ui-fabric-react";
 
 const Header = ({ state }) => (
   <>
@@ -28,6 +29,7 @@ const Header = ({ state }) => (
           <HeaderSocialIcons><FontAwesomeIcon icon={ faPinterest } className="fa-2x" /></HeaderSocialIcons>
         </SocialLink>
       </HeaderSocial>
+      <PrimaryButton>Hello World!</PrimaryButton>
     </Container>
     <Nav />
   </>
