@@ -8,3 +8,4 @@ node_modules/
 dist
 .cache
 now.json
+package-lock.json
