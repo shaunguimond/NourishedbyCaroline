@@ -29,7 +29,6 @@ const Header = ({ state }) => (
           <HeaderSocialIcons><FontAwesomeIcon icon={ faPinterest } className="fa-2x" /></HeaderSocialIcons>
         </SocialLink>
       </HeaderSocial>
-      <PrimaryButton>Hello World!</PrimaryButton>
     </Container>
     <Nav />
   </>

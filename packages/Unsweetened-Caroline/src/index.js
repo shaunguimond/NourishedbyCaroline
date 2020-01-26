@@ -1,7 +1,7 @@
 import Theme from "./components";
 import image from "@frontity/html2react/processors/image";
 
-const marsTheme = {
+const unsweetenedCaroline = {
   name: "Unsweetened-Caroline",
   roots: {
     // In Frontity, any package can add React components to the site.
@@ -33,4 +33,4 @@ const marsTheme = {
   }
 };
 
-export default marsTheme;
+export default unsweetenedCaroline;

@@ -10,25 +10,13 @@ const Item = ({ state, item }) => {
   return (
     <article>
       <Link link={item.link}>
-        <Title dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
-      </Link>
-      <div>
-        {author && (
-          <StyledLink link={author.link}>
-            <Author>
-              By <b>{author.name}</b>
-            </Author>
-          </StyledLink>
-        )}
-        <Fecha>
-          {" "}
-          on <b>{date.toDateString()}</b>
-        </Fecha>
-      </div>
       {state.theme.featured.showOnList && (
         <FeaturedMedia id={item.featured_media} />
       )}
-      <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
+      </Link>
+      <Link link={item.link}>
+        <Title dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
+      </Link>
     </article>
   );
 };
@@ -36,12 +24,13 @@ const Item = ({ state, item }) => {
 export default connect(Item);
 
 const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: rgba(12, 17, 43);
   margin: 0;
-  padding-top: 24px;
+  padding-top: 14px;
   padding-bottom: 8px;
   box-sizing: border-box;
+  text-align: center;
 `;
 
 const Author = styled.span`
