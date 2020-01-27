@@ -39,9 +39,6 @@ const Container = styled.section`
   margin: 0;
   padding: 24px;
   list-style: none;
-  overflow-x: auto;
-  display: flex;
-  flex-direction: row;
 `;
 
 const Header = styled.h3`

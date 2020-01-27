@@ -6,6 +6,7 @@ import Post from "./post";
 import Page404 from "./page404.js";
 import Loading from "./loading";
 import Title from "./title";
+import Home from "./list/home";
 
 // Theme is the root React component of our theme. The one we will export
 // in roots.
@@ -35,9 +36,10 @@ const Theme = ({ state }) => {
       on the type of URL we are in. */}
       <Main>
         {(data.isFetching && <Loading />) ||
-          (data.isArchive && <List />) ||
+          (data.isHome && <Home />) ||
           (data.isPostType && <Post />) ||
-          (data.is404 && <Page404 />)}
+          (data.is404 && <Page404 />) ||
+          (data.isArchive && <List />)}
       </Main>
     </>
   );
