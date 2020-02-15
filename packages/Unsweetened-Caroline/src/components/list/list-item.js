@@ -17,6 +17,10 @@ const Item = ({ state, item }) => {
       <Link link={item.link}>
         <Title dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
       </Link>
+        {/* If the post has an excerpt (short summary text), we render it */}
+              {item.excerpt && (
+        <Excerpt dangerouslySetInnerHTML={{ __html: item.excerpt.rendered }} />
+      )}
     </article>
   );
 };
@@ -31,5 +35,10 @@ const Title = styled.h1`
   padding-bottom: 8px;
   box-sizing: border-box;
   text-align: center;
+`;
+
+const Excerpt = styled.div`
+  line-height: 1.6em;
+  color: rgba(12, 17, 43, 0.8);
 `;
 
