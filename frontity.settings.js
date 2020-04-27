@@ -49,7 +49,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://unsweetenedcaroline.com/wp-json"
+          "api": "https://www.nourishedbycaroline.ca/wp-json"
         }
       }
     },

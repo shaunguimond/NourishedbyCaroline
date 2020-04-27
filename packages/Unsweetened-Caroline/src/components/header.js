@@ -11,21 +11,21 @@ const Header = ({ state }) => (
     <Container>
         <Logo>
           <StyledLink link="/" title="Unsweetened Caroline">
-            <HeaderLogo src="https://www.unsweetenedcaroline.com/wp-content/uploads/2019/03/Unsweetened-Caroline-Logo-V2-test.png"></HeaderLogo>
+            <HeaderLogo src="https://www.nourishedbycaroline.ca/wp-content/uploads/2020/03/Logo-Mailpoet-Nourished-by-Caroline.png"></HeaderLogo>
           </StyledLink>  
         </Logo>
       <Description>{state.frontity.description}</Description>
       <HeaderSocial>
-        <SocialLink href="https://www.facebook.com/unsweetenedcaro/" target="_blank">
+        <SocialLink href="https://www.facebook.com/nourishedbycaroline/" target="_blank">
           <HeaderSocialIcons><FontAwesomeIcon icon={ faFacebookF } className="fa-2x" /></HeaderSocialIcons>
         </SocialLink>
-        <SocialLink href="https://twitter.com/Unsweetenedcaro" target="_blank">
+        <SocialLink href="https://twitter.com/nourishedbycaro/" target="_blank">
           <HeaderSocialIcons><FontAwesomeIcon icon={ faTwitter } className="fa-2x" /></HeaderSocialIcons>
         </SocialLink>
-        <SocialLink href="https://www.instagram.com/unsweetened.caroline/" target="_blank">
+        <SocialLink href="https://www.instagram.com/nourishedbycaroline/" target="_blank">
           <HeaderSocialIcons><FontAwesomeIcon icon={ faInstagram } className="fa-2x" /></HeaderSocialIcons>
         </SocialLink>
-        <SocialLink href="https://www.pinterest.ca/unsweetenedcaro" target="_blank">
+        <SocialLink href="https://www.pinterest.ca/nourishedbycaroline/" target="_blank">
           <HeaderSocialIcons><FontAwesomeIcon icon={ faPinterest } className="fa-2x" /></HeaderSocialIcons>
         </SocialLink>
       </HeaderSocial>
