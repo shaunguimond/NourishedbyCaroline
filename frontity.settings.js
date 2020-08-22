@@ -15,7 +15,7 @@ const settings = {
           "menu": [
             [
               "About",
-              "/my-story/"
+              "/welcome-to-nourished-by-caroline/"
             ],
             [
               "Recipes",

@@ -50,8 +50,9 @@ const Archive = ({ state }) => {
         const item = state.source[type][id];
         return <ArchiveItem key={item.id} item={item} type={data.type} />;
       })}
+      </Container >
       <Pagination />
-    </Container >
+    
     </>
   );
 };

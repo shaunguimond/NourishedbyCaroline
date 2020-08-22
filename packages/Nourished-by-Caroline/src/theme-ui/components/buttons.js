@@ -73,7 +73,7 @@ const gradientPrimary = {
 
 const gradientSecondary = {
   backgroundImage: t =>
-    `linear-gradient(60deg, ${t.colors.primary}, ${t.colors.purple} )`
+    `linear-gradient(60deg, ${t.colors.primary}, ${t.colors.primary} )`
 };
 
 export const buttons = {
