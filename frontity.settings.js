@@ -1,15 +1,15 @@
 const settings = {
-  "name": "unsweetened-caroline",
+  "name": "Nourished-by-Caroline",
   "state": {
     "frontity": {
-      "url": "https://unsweetenedcaroline.com",
-      "title": "Unsweetened Caroline",
+      "url": "https://nourishedbycaroline.ca",
+      "title": "Nourished by Caroline",
       "description": "Where no recipe is sugar-coated."
     }
   },
   "packages": [
     {
-      "name": "Unsweetened-Caroline",
+      "name": "Nourished-by-Caroline",
       "state": {
         "theme": {
           "menu": [
@@ -49,7 +49,9 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://www.nourishedbycaroline.ca/wp-json"
+          "api": "https://www.nourishedbycaroline.ca/wp-json",
+          "homepage": "/nourished-by-caroline",
+          "postsPage": "/blog"
         }
       }
     },

@@ -13,15 +13,16 @@
   },
   "prettier": {},
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.26",
-    "@fortawesome/free-brands-svg-icons": "^5.12.0",
-    "@fortawesome/react-fontawesome": "^0.1.8",
-    "@frontity/core": "^1.4.1",
-    "@frontity/html2react": "^1.1.15",
-    "@frontity/tiny-router": "^1.0.18",
-    "@frontity/wp-source": "^1.4.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@frontity/core": "^1.7.3",
+    "@frontity/html2react": "^1.3.5",
+    "@frontity/tiny-router": "^1.2.1",
+    "@frontity/wp-source": "^1.8.1",
+    "Nourished-by-Caroline": "file:packages/Nourished-by-Caroline",
     "Unsweetened-Caroline": "file:packages/Unsweetened-Caroline",
-    "frontity": "^1.4.4",
-    "office-ui-fabric-react": "^7.79.1"
+    "frontity": "^1.10.1",
+    "office-ui-fabric-react": "^7.130.0"
   }
 }
