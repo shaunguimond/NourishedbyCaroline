@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Flex } from "theme-ui";
 import { connect } from "frontity";
-import Link from "../link";
+import Link from "@frontity/components/link";
 
 const Menu = ({ state, direction, ...props }) => {
   const menuItems = state.theme.menu;

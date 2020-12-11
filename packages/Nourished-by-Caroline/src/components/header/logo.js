@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui";
 import { connect } from "frontity";
 import { isUrl } from "../../helpers";
-import Link from "../link";
+import Link from "@frontity/components/link";
 
 const Logo = ({ state }) => {
   const { logo } = state.theme;

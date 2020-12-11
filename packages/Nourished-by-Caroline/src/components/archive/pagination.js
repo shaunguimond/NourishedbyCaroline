@@ -2,7 +2,7 @@
 import { jsx, Container, Flex } from "theme-ui";
 import { useEffect } from "react";
 import { connect } from "frontity";
-import Link from "../link";
+import Link from "@frontity/components/link";
 import { Nav } from "grommet";
 import { getUrlData, buildUrl } from "../../helpers";
 import paginationStyles from "../../styles/paginationStyles";

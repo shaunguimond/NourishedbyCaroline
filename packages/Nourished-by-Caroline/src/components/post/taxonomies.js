@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Button } from "theme-ui";
-import Link from "../link";
+import Link from "@frontity/components/link";
 
 const Taxonomies = ({ tax, name }) => {
   const buttonBg =

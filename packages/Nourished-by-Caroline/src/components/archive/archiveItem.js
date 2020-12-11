@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx, Container } from "theme-ui";
-import Link from "../link";
+import Link from "@frontity/components/link";
 import { connect } from "frontity";
 import PostEntryInfo from "../post/postEntryInfo";
 import { formatPostData } from "../../helpers";
